@@ -17,6 +17,9 @@ package com.macrossx.chatbotx.algorithm.model;
 
 import java.util.List;
 
+import com.google.common.collect.Lists;
+import com.macrossx.chatbotx.algorithm.segment.WordSegmentation;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -102,7 +105,7 @@ public class RelationVectorModel implements AlgorithmModel{
 		return false;
 	}
 
-
+/*
 	public static void main(String... s) {
 
 		String s1 = "我想去上海图书馆";
@@ -121,4 +124,5 @@ public class RelationVectorModel implements AlgorithmModel{
 		// }
 		// System.out.println(set);
 	}
+	*/
 }
