@@ -30,20 +30,24 @@ sourceSets.all { set ->
 }
 
 sourceSets {
-	groovyTemplate
-	wechat
-	push
+	chatbotx
+	
+	
 }
 
 jar {
-    from sourceSets.groovyTemplate.output
+    from sourceSets.chatbotx.output
  //   from sourceSets.impl.output
 }
 
 dependencies {
 	compile 'org.projectlombok:lombok:1.16.6'
 	compile 'com.hankcs:hanlp:portable-1.2.2'
-	compile 'com.google.guava:guava:18.0'
+	compile 'com.google.guava:guava:18.0' 
+	
+	chatbotxCompile 'org.projectlombok:lombok:1.16.6'
+	chatbotxCompile 'com.hankcs:hanlp:portable-1.2.2'
+	chatbotxCompile 'com.google.guava:guava:18.0' 
 }
 
 
