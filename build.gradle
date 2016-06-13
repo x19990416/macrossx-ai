@@ -41,34 +41,7 @@ jar {
 }
 
 dependencies {
- 	compile 'com.google.inject:guice:4.0'
-	compile 'org.codehaus.groovy:groovy-all:2.4.6'
 	compile 'org.projectlombok:lombok:1.16.6'
- 	compile 'org.apache.httpcomponents:httpclient:4.5.2'
-	compile 'com.google.code.gson:gson:2.6.2'
-	compile 'com.google.inject.extensions:guice-servlet:4.0'
-	compile 'javax.servlet:javax.servlet-api:4.0.0-b01'
-	compile 'cn.jpush.api:jpush-client:3.2.9'
- 
-	groovyTemplateCompile 'com.google.inject:guice:4.0'
-	groovyTemplateCompile 'org.codehaus.groovy:groovy-all:2.4.6'
-	groovyTemplateCompile 'org.projectlombok:lombok:1.16.6'
-	
-	wechatCompile 'org.apache.httpcomponents:httpclient:4.5.2'
-	wechatCompile 'com.google.code.gson:gson:2.6.2'
-	wechatCompile 'org.projectlombok:lombok:1.16.6'
-	wechatCompile 'com.google.inject:guice:4.0'
-	wechatCompile 'com.google.inject.extensions:guice-servlet:4.0'
-	wechatCompile 'javax.servlet:javax.servlet-api:4.0.0-b01'
-	
-	pushCompile 'com.google.inject:guice:4.0'
-	pushCompile 'cn.jpush.api:jpush-client:3.2.9'
-	pushCompile 'org.projectlombok:lombok:1.16.6'
-	
-	
-	
-	
-	
 }
 
 
