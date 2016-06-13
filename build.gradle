@@ -46,20 +46,7 @@ dependencies {
 	compile 'com.google.guava:guava:18.0'
 }
 
-uploadArchives {
-    repositories {
-        mavenDeployer {
-			repository(url: 'https://oss.sonatype.org/content/repositories/snapshots'){
-			authentication(userName: 'x19990416', password: 'Forever')}
 
-           ["chatbotx"].each { type ->
-                addFilter(type) { artifact, file -> artifact.name.endsWith("-$type") }
-                // We now have to map our configurations to the correct maven scope for each pom
-            }
-
-        }
-    }
-}
 
 /*
 uploadArchives {
